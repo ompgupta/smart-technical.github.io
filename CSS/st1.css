@@ -389,27 +389,34 @@ min-width: 40px!important;
 
 
   /* ***************media querie************ */
-  /* @media screen and (max-width:770px){
-    .nav-item{
-        text-align: center;
-    }
-    .price{
-        height: auto;
-        margin: 50px;
-    }
-    .card-sec{
-        transform: translateY(0);
-        margin: 30px 0;
-    }
+  @media screen and (max-width:770px){
+   
+.nav-item{
+    text-align: center;
+}
+.head-btn a{
+    margin:0px 7px;
+    padding:10px 23px;
+}
+.icons:hover{
+   font-size: 2px;
+}
+.card-sec{
+    transform: translateY(0);
+    margin: 30px 0;
+}
 .client{
-  height: auto;
+    height: auto;
+  }
+  .price{
+      height: auto;
+  }
+  .foot-section{
+    height: auto;
+  }
+  .fo{
+    float:left;
+    text-align: left;
+  }  
 }
-.foot-section{
-  height: 100vh;
-}
-.fo{
-  float:left;
-  text-align: left;
-}
-} */
   
